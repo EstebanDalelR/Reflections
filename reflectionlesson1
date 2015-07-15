@@ -1,0 +1,37 @@
+Version Control
+Lesson 1: File differences
+Comand line: 
+Windows:
+(cd Destination)
+FC file1.file file2.file
+Linux-Mac:
+(cd Destination)
+$ diff -u file1.file file2.file
+//Ayuda a no leer código, muestra diferencias
+//Usando Git Bash se usan los comandos UNIX
+$ git log 
+//Obtiene los commits de el archivo
+$ git diff commit1 commit2
+//compara las versiones del archivo
+//rojo: removido; verde: agregado
+//Los commits manuales dan control de los archivos
+//repository: grupo de archivos de un commit
+$ git log ---stat
+//muestra a cuáles archivos se le hizo cambios
+//+ verdes: adiciones; - rojos: substracciones
+//se le pide diff y muestra los diferentes archivos
+//git es útil por el tipo de datos
+//otros servicios tienen otros propósitos
+$ git clone
+//clona repositorios completos
+$ git checkout commit_name
+//reset files to previous commit
+// es útil para cagarla
+$git scp 
+//copia repositorios
+$ git init 
+//convierte un folder en un repositorio
+//se crea el archivo .git
+$ git status
+// muestra los archivos que han cambiado 
+//desde el último commit
