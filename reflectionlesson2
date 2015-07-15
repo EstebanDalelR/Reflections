@@ -1,0 +1,16 @@
+Version control
+Lesson 2
+$ls -a 
+//muestra TODOS los archivos 
+$git add file
+// abre el staging area
+//correr status los muestra
+'Staging area'
+//espacio donde se alista el commit
+'repository'
+//archivo commit
+'working directory'
+//lo que se está trabajando
+$ cd ..
+//sube un folder
+ 
