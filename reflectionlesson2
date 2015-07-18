@@ -13,4 +13,60 @@ $git add file
 //lo que se está trabajando
 $ cd ..
 //sube un folder
- 
+$git diff [NO ARGUMENTS]
+//muestra las diferencias entre el Working
+//Directory y el Staging Area
+$git diff --staged
+//muestra las diferencias entre el 
+//Staging Area y el último commit
+$git reset --hard
+//ELMINA LOS CAMBIOS DE WD Y SA
+//NO HAY COMMITS
+//DANGER
+$git subl file.ext
+//abre en Sublime el archivo
+***Como nombrar un commit***
+feat: a new feature
+fix: a bug fix
+docs: changes to documentation
+style: formatting, missing semi colons, etc; no code change
+refactor: refactoring production code
+test: adding tests, refactoring test; no production code change
+chore: updating build tasks, package manager configs, etc; no production code change
+****************************
+'Branches'
+//brazos de desarrollo
+'master branch'
+//el brazo principal
+'merging'
+//unir dos branches
+$git branch [NO ARGUMENTS]
+//Muestra la current branches
+$git branch name-of-branch
+//crea una branch
+//muestra con un * la actual
+$git checkout name-of-branch
+//selecciona esa branch
+//usar branches para no arruinar la serie
+//permite cambios diferentes a una versión
+//un ejemplo son idiomas o experimentos
+'remote branch'
+//someone else created the branch
+$git log --graph
+//genera un gráfico de los branches
+$git checkout -b new_branch_name
+//crea una branch y le hace checkout
+//puede ser el commit actual
+$git merge branch1 branch2
+//une dos branches
+//genera un commit
+$git show commitID
+//muestra el diff entre un commit y su parent
+$git branch -d branch1
+//elimina una branch
+//Merge conflict:
+//divide en 3 secciones el archivo conflicto
+//head cambios y branch
+//cuando se da;a el merge hay que hacerlo manual
+//se corrge el error y se hace un commit
+//el automerge de git ahorra trabajo pero puede acarrear errores
