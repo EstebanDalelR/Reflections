@@ -12,3 +12,5 @@ $ git -v
 //da más info
 //verbose
 $git push [remote][branch]
+//envía los archivos al remote
+//ahí están seguros
