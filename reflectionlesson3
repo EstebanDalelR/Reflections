@@ -1,0 +1,14 @@
+Version Control
+Lesson 3
+"Remotes"
+//repositorios remotos
+//push y pull
+$ git remote
+//view and create remotes
+$ git remote add [name]
+//agrega remotes 
+//el nombre estándar es Origin
+$ git -v
+//da más info
+//verbose
+$git push [remote][branch]
