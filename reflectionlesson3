@@ -14,3 +14,5 @@ $ git -v
 $git push [remote][branch]
 //envía los archivos al remote
 //ahí están seguros
+$git pull [remote][branch]
+//traer los datos del remote
