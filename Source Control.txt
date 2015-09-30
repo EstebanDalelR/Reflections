@@ -1,0 +1,6 @@
+Version Control
+Lesson 1: File differences
+Comand line: 
+Windows:
+(cd Destination)
+FC file1.file file2.file

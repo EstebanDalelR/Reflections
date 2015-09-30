@@ -16,3 +16,18 @@ $git push [remote][branch]
 //ahí están seguros
 $git pull [remote][branch]
 //traer los datos del remote
+"forking"
+//copiar a mi GH del repositorio de alguien
+//al clonar de un repositorio se convierte en remote
+//al pedir status avisa las diferencias entre el remote 
+//y el repositorio actual
+$git fetch
+//hace pull con otra branch
+//no cambia mi master
+//cambia el remote\master
+"Fast forward merge"
+//mueve el label si el commit es parent
+"Pull request"
+//Lista de cambios sugeridos en GH
+//hace fácil para los colaboradores ver
+//y comentar los cambios
